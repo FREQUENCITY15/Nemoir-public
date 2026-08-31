@@ -6,6 +6,8 @@ These assets support Nemoir's public documentation and reference implementation.
   Finlayson. The repository copy was re-encoded to omit source-file metadata.
 - `nemoir-mascot.png` is a transparent mascot/avatar derived from the supplied
   project artwork with OpenAI image generation on 2026-08-31.
+- `nemoir-social-preview.jpg` is the wide GitHub social card derived from the
+  supplied project artwork with OpenAI image generation on 2026-08-31.
 - `nemoir-lifecycle.svg` is the repository-native explanatory diagram for the
   implementation-independent tendril lifecycle.
 
