@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "claim": {
+    "raw_topic": "LLM consciousness and learned compassion",
+    "normalized_label": "LLM consciousness and learned compassion",
+    "matching_fragments": [
+      {
+        "source_message_id": "synthetic-102",
+        "exact_quote": "If an AI only repeats compassionate language, has it learned compassion or merely reproduced its shape?",
+        "unit_ids": ["synthetic-102:p2"]
+      },
+      {
+        "source_message_id": "synthetic-102",
+        "exact_quote": "A system choosing between a devastating short war and a longer war with greater suffering would stress-test what consequential compassion means.",
+        "unit_ids": ["synthetic-102:p3"]
+      }
+    ],
+    "confidence": 0.96,
+    "rationale": "The declaration names the compassion discussion and its consequential-ethics stress test."
+  },
+  "tendrils": [
+    {
+      "client_id": "t-alien-observation",
+      "title": "Limits of observing unfamiliar life",
+      "description": "Whether unfamiliar life could fall outside assumptions built into observation.",
+      "type": "OPEN_QUESTION",
+      "actionability": "NOT_ACTIONABLE",
+      "evidence": [
+        {
+          "source_message_id": "synthetic-101",
+          "exact_quote": "Could unfamiliar life sit outside the assumptions built into how we observe the universe?",
+          "unit_ids": ["synthetic-101:p1"]
+        }
+      ],
+      "why_open": "The bundle raises the question without developing an answer.",
+      "suggested_habitat_slug": "cosmology-and-life",
+      "habitat_reasoning": "The question concerns observation and unfamiliar life.",
+      "confidence": 0.91
+    },
+    {
+      "client_id": "t-time",
+      "title": "Time as eternal and illusory",
+      "description": "A tension between time being eternal and also an illusion.",
+      "type": "OPEN_QUESTION",
+      "actionability": "NOT_ACTIONABLE",
+      "evidence": [
+        {
+          "source_message_id": "synthetic-101",
+          "exact_quote": "I keep wondering whether time can be both eternal and an illusion.",
+          "unit_ids": ["synthetic-101:p2"]
+        }
+      ],
+      "why_open": "No response or resolution appears in the submitted bundle.",
+      "suggested_habitat_slug": "consciousness-and-reality",
+      "habitat_reasoning": "The subject concerns the nature of time and reality.",
+      "confidence": 0.93
+    },
+    {
+      "client_id": "t-free-will",
+      "title": "Free will requires consequences",
+      "description": "A claim linking meaningful free will to consequential choice.",
+      "type": "DECISION_CANDIDATE",
+      "actionability": "NOT_ACTIONABLE",
+      "evidence": [
+        {
+          "source_message_id": "synthetic-102",
+          "exact_quote": "Free will matters only if choices have consequences.",
+          "unit_ids": ["synthetic-102:p1"]
+        }
+      ],
+      "why_open": "The claim is asserted but not examined.",
+      "suggested_habitat_slug": "free-will-and-consequence",
+      "habitat_reasoning": "The statement is a recurring philosophical proposition.",
+      "confidence": 0.88
+    },
+    {
+      "client_id": "t-ai-lens",
+      "title": "AI as one lens",
+      "description": "A caution against treating AI as the only available perspective.",
+      "type": "INTERESTING",
+      "actionability": "NOT_ACTIONABLE",
+      "evidence": [
+        {
+          "source_message_id": "synthetic-103",
+          "exact_quote": "Maybe AI should be one lens rather than the only perspective.",
+          "unit_ids": ["synthetic-103:p1"]
+        }
+      ],
+      "why_open": "The idea could shape later discussion but is not developed here.",
+      "suggested_habitat_slug": "human-ai-collaboration",
+      "habitat_reasoning": "The claim concerns the proper role of AI.",
+      "confidence": 0.87
+    },
+    {
+      "client_id": "t-catalogue",
+      "title": "Catalogue unfinished chat branches",
+      "description": "Build a tool that decomposes long chats and preserves unfinished branches.",
+      "type": "PROJECT_SEED",
+      "actionability": "CANDIDATE",
+      "evidence": [
+        {
+          "source_message_id": "synthetic-103",
+          "exact_quote": "We should build a tool that catalogues long human and AI chats, separates unfinished branches, and lets us return to them.",
+          "unit_ids": ["synthetic-103:p2"]
+        }
+      ],
+      "why_open": "The project is proposed but no implementation decision is recorded.",
+      "suggested_habitat_slug": "nemoir",
+      "habitat_reasoning": "The project seed directly describes Nemoir's purpose.",
+      "confidence": 0.98
+    }
+  ],
+  "coverage": [
+    {
+      "source_message_id": "synthetic-101",
+      "unit_id": "synthetic-101:p1",
+      "classification": "TENDRIL",
+      "tendril_client_ids": ["t-alien-observation"],
+      "reason": "Distinct unanswered question.",
+      "confidence": 0.91
+    },
+    {
+      "source_message_id": "synthetic-101",
+      "unit_id": "synthetic-101:p2",
+      "classification": "TENDRIL",
+      "tendril_client_ids": ["t-time"],
+      "reason": "Distinct unanswered philosophical question.",
+      "confidence": 0.93
+    },
+    {
+      "source_message_id": "synthetic-102",
+      "unit_id": "synthetic-102:p1",
+      "classification": "TENDRIL",
+      "tendril_client_ids": ["t-free-will"],
+      "reason": "Independent claim outside the selected topic.",
+      "confidence": 0.88
+    },
+    {
+      "source_message_id": "synthetic-102",
+      "unit_id": "synthetic-102:p2",
+      "classification": "CLAIMED",
+      "tendril_client_ids": [],
+      "reason": "Directly matched to the recipient's claim.",
+      "confidence": 0.96
+    },
+    {
+      "source_message_id": "synthetic-102",
+      "unit_id": "synthetic-102:p3",
+      "classification": "CLAIMED",
+      "tendril_client_ids": [],
+      "reason": "Consequential-ethics stress test attached to the claimed compassion discussion.",
+      "confidence": 0.94
+    },
+    {
+      "source_message_id": "synthetic-103",
+      "unit_id": "synthetic-103:p1",
+      "classification": "TENDRIL",
+      "tendril_client_ids": ["t-ai-lens"],
+      "reason": "Independently resumable caution.",
+      "confidence": 0.87
+    },
+    {
+      "source_message_id": "synthetic-103",
+      "unit_id": "synthetic-103:p2",
+      "classification": "TENDRIL",
+      "tendril_client_ids": ["t-catalogue"],
+      "reason": "Explicit project seed not covered by the recipient's claim.",
+      "confidence": 0.98
+    }
+  ],
+  "unresolved": []
+}

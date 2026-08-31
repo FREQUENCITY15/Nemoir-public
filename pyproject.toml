@@ -1,0 +1,45 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nemoir"
+version = "0.1.0"
+description = "Conversational branch recovery with exact provenance and human-led attention."
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.8,<3",
+]
+
+[project.optional-dependencies]
+deepseek = ["httpx>=0.27,<1"]
+discord = ["discord.py>=2.4,<3"]
+dev = [
+  "pytest>=8,<10",
+  "pytest-asyncio>=0.24,<2",
+]
+all = [
+  "httpx>=0.27,<1",
+  "discord.py>=2.4,<3",
+  "pytest>=8,<10",
+  "pytest-asyncio>=0.24,<2",
+]
+
+[project.scripts]
+nemoir = "nemoir.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nemoir"]
+
+[tool.hatch.build]
+include = [
+  "src/nemoir/**/*.py",
+  "src/nemoir/**/*.sql",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q --basetemp=.pytest_tmp"
+testpaths = ["tests"]
+asyncio_mode = "auto"

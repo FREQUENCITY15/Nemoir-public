@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use Nemoir, please cite the software and preserve its attribution."
+title: "Nemoir"
+type: software
+abstract: "An experimental reference implementation for claim-relative recovery of unfinished conversational branches with provenance, review, lifecycle, and resurfacing."
+authors:
+  - family-names: "Finlayson"
+    given-names: "Thom"
+version: "0.1.0"
+license: "Apache-2.0"
+repository-code: "https://github.com/FREQUENCITY15/Nemoir-public"

@@ -1,0 +1,39 @@
+{
+  "fixture_status": "SYNTHETIC",
+  "claim": "LLM consciousness and learned compassion",
+  "messages": [
+    {
+      "platform": "discord",
+      "external_message_id": "synthetic-101",
+      "author_user_id": "person-1",
+      "author_display_name": "Person 1",
+      "channel_id": "intake-1",
+      "content": "Could unfamiliar life sit outside the assumptions built into how we observe the universe?\n\nI keep wondering whether time can be both eternal and an illusion.",
+      "source_url": "https://discord.invalid/channels/guild-1/intake-1/synthetic-101",
+      "timestamp": "2026-08-27T08:00:00+00:00",
+      "ordinal": 0
+    },
+    {
+      "platform": "discord",
+      "external_message_id": "synthetic-102",
+      "author_user_id": "person-1",
+      "author_display_name": "Person 1",
+      "channel_id": "intake-1",
+      "content": "Free will matters only if choices have consequences.\n\nIf an AI only repeats compassionate language, has it learned compassion or merely reproduced its shape?\n\nA system choosing between a devastating short war and a longer war with greater suffering would stress-test what consequential compassion means.",
+      "source_url": "https://discord.invalid/channels/guild-1/intake-1/synthetic-102",
+      "timestamp": "2026-08-27T08:01:00+00:00",
+      "ordinal": 1
+    },
+    {
+      "platform": "discord",
+      "external_message_id": "synthetic-103",
+      "author_user_id": "person-1",
+      "author_display_name": "Person 1",
+      "channel_id": "intake-1",
+      "content": "Maybe AI should be one lens rather than the only perspective.\n\nWe should build a tool that catalogues long human and AI chats, separates unfinished branches, and lets us return to them.",
+      "source_url": "https://discord.invalid/channels/guild-1/intake-1/synthetic-103",
+      "timestamp": "2026-08-27T08:02:00+00:00",
+      "ordinal": 2
+    }
+  ]
+}
