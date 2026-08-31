@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/nemoir-hero.png" width="620" alt="A friendly robot among branching pink and purple coral tendrils, with three clownfish" />
+</p>
+
 # Nemoir
 
 > Experimental open-source reference implementation. Discord is currently the
@@ -16,6 +20,8 @@ deposit
 -> later return or resurfacing
 ```
 
+![The Nemoir tendril lifecycle: deposit, recipient claim, semantic exclusion, tendril recovery, human review, and later return](docs/assets/nemoir-lifecycle.svg)
+
 A **Tendril** is a meaningful, unfinished conversational edge - for example a
 question, disagreement, research lead, decision, task candidate, or project
 seed - retained with evidence showing where it came from. Human attention and
@@ -30,6 +36,12 @@ experimental recipient-free autonomous mode. That mode is implemented and is
 the default workflow in the current Discord UI, but it is an extension of the
 reference implementation, not a replacement definition for the core
 recipient-claim model.
+
+The standalone mascot artwork is available at
+[`docs/assets/nemoir-mascot.png`](docs/assets/nemoir-mascot.png) for the Discord
+bot avatar and other small-format reference-implementation surfaces. Visual
+asset provenance and reuse notes are in
+[`docs/assets/README.md`](docs/assets/README.md).
 
 ## Project status and boundaries
 
